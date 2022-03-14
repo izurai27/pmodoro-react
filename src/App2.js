@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+import './app2.css';
 // import { render } from '@testing-library/react';
 import React from 'react';
 import sound from './src_short_sms_7.mp3'
@@ -131,7 +131,7 @@ class App extends React.Component {
   render(){
     return(
       <div className="big-container">
-        <button id="playAudio"  onClick={this.handlePlay}> 
+        <button style={{display:"none"}} id="playAudio"  onClick={this.handlePlay}> 
               <audio id="beep" src={sound} type="audio/mpeg"/>
         </button>
        

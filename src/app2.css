@@ -1,0 +1,62 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.big-container{
+  width:70vw;
+  border:1px solid blue;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.count-down{
+  margin:auto;
+  border:1px solid green;
+}
+#timer-label{
+  text-align:center;
+}
+
+#time-left{
+  display:block;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+  margin-bottom:20px;
+}
+
+.edit-value{
+  display:grid;
+  grid-template-areas: 'label label'
+                        'session break';
+}
+
+.edit-label{
+  grid-area:label;
+  text-align: center;
+  margin:20px;
+}
+
+.edit-session{
+  grid-area:session;
+  text-align:center;
+  margin-bottom: 20px;
+
+}
+
+.edit-break{
+  grid-area:break;
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+#audiotag{
+  display:none;
+}
